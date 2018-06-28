@@ -1,0 +1,41 @@
+from powerline_shell.themes.default import DefaultColor
+
+
+class Color(DefaultColor):
+    USERNAME_FG = 220
+    USERNAME_BG = 57
+    USERNAME_ROOT_BG = 1
+
+    HOSTNAME_FG = 227
+    HOSTNAME_BG = 56
+
+    HOME_SPECIAL_DISPLAY = False
+    PATH_FG = 10
+    PATH_BG = 227
+    CWD_FG = 27
+    SEPARATOR_FG = 214
+
+    READONLY_BG = 27
+    READONLY_FG = 214
+
+    REPO_CLEAN_FG = 50
+    REPO_CLEAN_BG = 30
+    REPO_DIRTY_FG = 50
+    REPO_DIRTY_BG = 30
+
+    JOBS_FG = 50
+    JOBS_BG = 205
+
+    CMD_PASSED_FG = 50
+    CMD_PASSED_BG = 205
+    CMD_FAILED_FG = 15
+    CMD_FAILED_BG = 1
+
+    SVN_CHANGES_FG = REPO_DIRTY_FG
+    SVN_CHANGES_BG = REPO_DIRTY_BG
+
+    VIRTUAL_ENV_BG = 205
+    VIRTUAL_ENV_FG = 50
+
+    TIME_FG = 11
+    TIME_BG = 227
